@@ -1,0 +1,52 @@
+export const skills=[
+    {
+        "name":"Java",
+        "percent":80,
+        "logo":"https://brandeps.com/logo-download/J/Java-logo-vector-01.svg",
+    },
+    {
+        "name":"HTML",
+        "percent":90,
+        "logo":"https://brandeps.com/logo-download/H/HTML-5-logo-vector-01.svg",
+    },
+    {
+        "name":"CSS",
+        "percent":90,
+        "logo":"https://www.vectorlogo.zone/logos/w3_css/w3_css-official.svg"
+    },
+    {
+        "name":"Javascript",
+        "percent":70,
+        "logo":"https://brandeps.com/logo-download/J/JavaScript-logo-vector-01.svg",
+    },
+    {
+        "name":"React",
+        "percent":70,
+        "logo":"https://brandeps.com/logo-download/R/React-logo-vector-01.svg",
+    },
+    {
+        "name":"MySQL",
+        "percent":90,
+        "logo":"https://brandeps.com/logo-download/M/MySQL-logo-vector-01.svg"
+    },
+    {
+        "name":"Git",
+        "percent":60,
+        "logo":"https://git-scm.com/images/logos/2color-lightbg@2x.png"
+    },
+    {
+        "name":"VS Code",
+        "percent":60,
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1024px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519"
+    },
+    {
+        "name":"Android Studio",
+        "percent":50,
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1024px-Android_Studio_Icon_3.6.svg.png?20210301045217"
+    },
+    {
+        "name":"Linux",
+        "percent":40,
+        "logo":"https://seeklogo.com/images/L/linux-logo-3793382FC8-seeklogo.com.png"
+    }
+]
