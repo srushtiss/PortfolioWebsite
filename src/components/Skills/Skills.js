@@ -3,8 +3,6 @@ import ProgressBar from './ProgressBar'
 import { skills } from '../../utils/data'
 
 const Skills = () => {
-  
-  console.log(skills);
 
   return (
     <div className='flex-col bg-gray-100'>

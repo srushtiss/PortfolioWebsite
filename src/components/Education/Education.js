@@ -22,7 +22,7 @@ const Education = () => {
                     <div className="bg-gray-300 p-6 rounded-md shadow-md">
                         <span
                             className="font-bold text-indigo-600 text-sm tracking-wide"
-                            >Aug 2021-May 2023</span
+                            >2021-2023</span
                         >
                         <h1 className="text-2xl font-bold pt-1">The University of Texas at Dallas</h1>
                         <h1 className="text-2xl font-bold pt-1">USA</h1>
@@ -41,7 +41,7 @@ const Education = () => {
                     <div className="bg-gray-300 p-6 rounded-md shadow-md">
                         <span
                             className="font-bold text-indigo-600 text-sm tracking-wide"
-                            >Aug 2016-Oct 2020</span
+                            >2016-2020</span
                         >
                         <h1 className="text-2xl font-bold pt-1">
                             VES Institute of technology-University of Mumbai
@@ -65,7 +65,7 @@ const Education = () => {
                     <div className="bg-gray-300 p-6 rounded-md shadow-md">
                         <span
                             className="font-bold text-indigo-600 text-sm tracking-wide"
-                            >March 2012</span
+                            >2014</span
                         >
                         <h1 className="text-2xl font-bold pt-1">Sant Tukaram National Model School (CBSE)</h1>
                         <h1 className="text-2xl font-bold pt-1">India</h1>
