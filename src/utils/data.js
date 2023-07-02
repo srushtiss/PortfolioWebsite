@@ -50,3 +50,38 @@ export const skills=[
         "logo":"https://seeklogo.com/images/L/linux-logo-3793382FC8-seeklogo.com.png"
     }
 ]
+
+export const projects=[
+    {
+        "title":"AIDE-AI and IoT enabled home automation for Disabled and Elderly",
+        "time_period":"August 2019-Oct 2020",
+        "description":"It is a glove-based system which allows the disabled and the elderly to control devices with gestures. Simultaneously, it allows their caretakers and family members to monitor their behaviour through a mobile application.",
+        "tech_stack":"IoT, AI(LSTM-ANN), Android(Java), Firebase Firestore",
+        "demo":"https://www.youtube.com/embed/aMij9ervVSE?list=PLK0jpMYIBd6AUrFZhNqlEHrLDUWzkZu-4",
+        "left":true
+    },
+    {
+        "title":"Gesture Controlled Home Automation System using IoT and ML",
+        "time_period":"Sept 2018-April 2019",
+        "description":"A gesture controlled system which controls the home appliances with use of gestures and uses the electricity usage data of devices to predict the electrivity consumption.",
+        "tech_stack":"IoT, ML(RNN/LSTM),AJAX/PHP(UI)",
+        "demo":"https://www.youtube.com/embed/aMij9ervVSE?list=PLK0jpMYIBd6AUrFZhNqlEHrLDUWzkZu-4",
+        "left":false
+    },
+    {
+        "title":"V-Assist: Digital Divide Elderly, Academic Project",
+        "time_period":"Sept 2022-Dec 2022",
+        "description":"A web application targeting elderly people which helps them to gain information about other applications and their working",
+        "tech_stack":"ReactJS (Stable Components, Hooks, React-Router,State Management), Bootstrap",
+        "demo":"https://www.youtube.com/embed/l3-KOazE7Yg",
+        "left":true
+    },
+    {
+        "title":"Personal Portfolio Website",
+        "time_period":"June 2023-July 2023",
+        "description":"My portfolio website giving you an opportunity to know about me and my skills and you are currently viewing it!",
+        "tech_stack":"ReactJS (Stable Components, Hooks, React-Router, State Management), Tailwind CSS and Git (Version Control)",
+        "demo":"",
+        "left":false
+    }
+]
