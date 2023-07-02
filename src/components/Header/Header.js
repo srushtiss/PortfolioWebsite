@@ -6,6 +6,7 @@ const Header = () => {
     <div className='flex justify-between border border-solid'>
       <h1 className='p-2 m-4'>Srushti</h1>
       <ul className='flex'>
+        <li className='p-2 m-4'><Link to="/home">Home</Link></li>
         <li className='p-2 m-4'><Link to="/about">About Me</Link></li>
         <li className='p-2 m-4'><Link to="/education">Education</Link></li>
         <li className='p-2 m-4'><Link to="/projects">Projects</Link></li>
