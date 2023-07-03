@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <div>
+    <div className='bg-slate-100'>
       <div className="antialiased bg-gray-100 text-gray-800">
         <div className="relative container mx-auto px-6 flex flex-col space-y-8">
             <div

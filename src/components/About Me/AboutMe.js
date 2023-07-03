@@ -2,8 +2,8 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>
-        <h3 className='m-4 p-4 text-center text-2xl italic'>"Develop a passion for learning. If you do, you will never cease to grow."</h3>
+    <div className='bg-slate-100'>
+        <h3 className='text-center text-2xl italic'>"Develop a passion for learning. If you do, you will never cease to grow."</h3>
         <div className='flex'>
             <div className='m-4 p-4 flex flex-wrap justify-between items-center'>
               <img className="w-auto h-auto" alt="computer_image" src={require('../../utils/computer_1.jpeg')}/>

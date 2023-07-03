@@ -4,11 +4,11 @@ import ProjectCard from '../Cards/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='flex-col'>
+    <div className='flex-col bg-slate-100'>
      
       {projects.map((project)=>(
         project.left?
-        <div className='m-4 p-4 flex'>
+        <div className='flex'>
           <div className='relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 md:ml-0 md:mr-auto md:pl-0 md:pr-16;'>
             <ProjectCard title={project.title} time_period={project.time_period} desc={project.description} tech_stack={project.tech_stack} demo={project.demo}/>
          </div> 

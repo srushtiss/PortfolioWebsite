@@ -3,7 +3,7 @@ import PublicationCard from "../Cards/PublicationCard"
 
 const Publications = () => {
   return (
-    <div className='flex flex-wrap justify-center'>
+    <div className='flex flex-wrap justify-center bg-slate-100'>
         <PublicationCard 
         title={"AIDE-AI and IoT Enabled Home Automation for Disabled and Elderly"}
         view={"https://link.springer.com/chapter/10.1007/978-981-15-9927-9_23?error=cookies_not_supported&code=fc1c8f94-3db5-4ff2-9c40-5a95e1a03a13"}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='bg-slate-100'>
       <div className='m-6 flex flex-wrap justify-between items-center'>
         <Link to="https://www.linkedin.com/in/srushtisachdev/">
           <div className='p-6 box-border border-4 rounded-3xl bg-blue-300'>

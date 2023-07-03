@@ -1,10 +1,11 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import image from '../../utils/bg.jpeg'
 
 const Body = () => {
 
   return (
-    <div className='flex justify-between'>
+    <div className='flex justify-between bg-slate-100'>
       <div className='m-6 p-6'>
       <div className='pl-32 m-6 flex-col w-[500px]'>
         <h1 className='text-6xl'>Hello World,</h1>
