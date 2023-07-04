@@ -22,7 +22,6 @@ const Contact = () => {
   const handleSubmit=(e)=>{
     setFormErrors(validateForm(formData))
     sendEmail(e)
-    document.getElementById('user_msg').innerHTML="Message sent succeccfully. Will get back to you shortly"
   }
 
   const validateForm =(values)=>{
