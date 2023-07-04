@@ -11,7 +11,7 @@ const ProgressBar = (props) => {
           { (value) => <CircularProgressbarWithChildren value={value}>
             <div className='flex flex-col items-center'>
                 <img src={props.logo} alt="logo" className='w-28'/>
-                <strong className='text-3xl'>{props.percent}%</strong>
+                <strong className='text-3xl font-about'>{props.percent}%</strong>
             </div>
                       </CircularProgressbarWithChildren>}
         </ProgressProvider>

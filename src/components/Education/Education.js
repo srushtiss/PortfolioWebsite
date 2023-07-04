@@ -24,8 +24,8 @@ const Education = () => {
                             className="font-bold text-indigo-600 text-sm tracking-wide"
                             >2021-2023</span
                         >
-                        <h1 className="text-2xl font-bold pt-1">The University of Texas at Dallas</h1>
-                        <h1 className="text-2xl font-bold pt-1">USA</h1>
+                        <h1 className="text-2xl font-bold pt-1 font-about">The University of Texas at Dallas</h1>
+                        <h1 className="text-2xl font-bold pt-1 font-about">USA</h1>
                         
                     </div>
                 </div>
@@ -43,10 +43,10 @@ const Education = () => {
                             className="font-bold text-indigo-600 text-sm tracking-wide"
                             >2016-2020</span
                         >
-                        <h1 className="text-2xl font-bold pt-1">
+                        <h1 className="text-2xl font-bold pt-1 font-about">
                             VES Institute of technology-University of Mumbai
                         </h1>
-                        <h1 className="text-2xl font-bold pt-1">India</h1>
+                        <h1 className="text-2xl font-bold pt-1 font-about">India</h1>
                         
                     </div>
                 </div>
@@ -67,8 +67,8 @@ const Education = () => {
                             className="font-bold text-indigo-600 text-sm tracking-wide"
                             >2014</span
                         >
-                        <h1 className="text-2xl font-bold pt-1">Sant Tukaram National Model School (CBSE)</h1>
-                        <h1 className="text-2xl font-bold pt-1">India</h1>
+                        <h1 className="text-2xl font-bold pt-1 font-about">Sant Tukaram National Model School (CBSE)</h1>
+                        <h1 className="text-2xl font-bold pt-1 font-about">India</h1>
                        
                     </div>
                 </div>

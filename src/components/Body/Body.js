@@ -1,25 +1,25 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import image from '../../utils/bg.jpeg'
+
 
 const Body = () => {
 
   return (
     <div className='flex justify-between bg-slate-100'>
       <div className='m-6 p-6'>
-      <div className='pl-32 m-6 flex-col w-[500px]'>
+      <div className='pl-32 m-6 flex-col w-[500px] font-heading text-blue-600'>
         <h1 className='text-6xl'>Hello World,</h1>
         <h1 className='p-4 text-6xl'>I am</h1>
       </div>
-      <div className='pl-10 text-6xl'>
+      <div className='pl-10 text-6xl font-info text-cyan-400'>
             &lt;{''}
             <span>
             <Typewriter
-                words={['Srushti', 'a Software Developer', 'a Java Developer','a Full Stack Developer']}
+                words={['Srushti Sachdev', 'a Software Developer', 'a Java Developer','a Full Stack Developer']}
                 loop={false}
                 cursor={false}
-                typeSpeed={60}
-                deleteSpeed={60}
+                typeSpeed={100}
+                deleteSpeed={100}
                 delaySpeed={1000}
             />
             </span>

@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      info:['Fantasy'],
+      heading:['Shadows Into Light'],
+      navbar:['Indie Flower'],
+      about:['Cardo']
+    }
   },
   plugins: [require('flowbite/plugin')],
 }

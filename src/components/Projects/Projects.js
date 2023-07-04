@@ -4,7 +4,7 @@ import ProjectCard from '../Cards/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='flex-col bg-slate-100'>
+    <div className='p-14 flex-col bg-slate-100'>
      
       {projects.map((project)=>(
         project.left?
