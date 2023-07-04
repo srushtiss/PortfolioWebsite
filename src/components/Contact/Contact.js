@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
+import { useState} from 'react'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
@@ -8,6 +9,7 @@ const Contact = () => {
 
   const [formData,setFormData]=useState(formInitialData)
   const [formErrors,setFormErrors]=useState({})
+
 
   const handleChange=(e)=>{
     const {name,value}=e.target
@@ -19,6 +21,8 @@ const Contact = () => {
 
   const handleSubmit=(e)=>{
     setFormErrors(validateForm(formData))
+    sendEmail(e)
+    document.getElementById('user_msg').innerHTML="Message sent succeccfully. Will get back to you shortly"
   }
 
   const validateForm =(values)=>{
@@ -40,6 +44,19 @@ const Contact = () => {
     } 
     return errors;
 }
+
+
+
+const sendEmail = (e) => {
+
+  emailjs.init("At5YnmIkHaLDGY5cg");
+  emailjs.send("service_5bszv5l","template_7yjuz98", formData)
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
 
   return (
     <div className='bg-slate-100'>
@@ -63,7 +80,7 @@ const Contact = () => {
           </div>
         </Link>
       </div>
-      <h1 className='m-4 font-abput text-3xl text-purple-700'>You can DM me too!</h1>
+      <h1 id="user_msg" className='m-4 font-abput text-3xl text-purple-700'>You can DM me too!</h1>
       <div className='p-6 m-auto w-[50%] h-auto border-4 rounded-xl'>
        
         <form className='p-4 flex justify-evenly items-center'>
