@@ -58,7 +58,8 @@ export const projects=[
         "description":"It is a glove-based system which allows the disabled and the elderly to control devices with gestures. Simultaneously, it allows their caretakers and family members to monitor their behaviour through a mobile application.",
         "tech_stack":"IoT, AI(LSTM-ANN), Android(Java), Firebase Firestore",
         "demo":"https://www.youtube.com/embed/aMij9ervVSE?list=PLK0jpMYIBd6AUrFZhNqlEHrLDUWzkZu-4",
-        "left":true
+        "left":true,
+        "github":"https://github.com/srushtiss/AIDE"
     },
     {
         "title":"Gesture Controlled Home Automation System using IoT and ML",
@@ -66,7 +67,8 @@ export const projects=[
         "description":"A gesture controlled system which controls the home appliances with use of gestures and uses the electricity usage data of devices to predict the electrivity consumption.",
         "tech_stack":"IoT, ML(RNN/LSTM),AJAX/PHP(UI)",
         "demo":"https://www.youtube.com/embed/aMij9ervVSE?list=PLK0jpMYIBd6AUrFZhNqlEHrLDUWzkZu-4",
-        "left":false
+        "left":false,
+        "github":"https://github.com/srushtiss/GestureControlled"
     },
     {
         "title":"V-Assist: Digital Divide Elderly, Academic Project",
@@ -74,7 +76,8 @@ export const projects=[
         "description":"A web application targeting elderly people which helps them to gain information about other applications and their working",
         "tech_stack":"ReactJS (Stable Components, Hooks, React-Router,State Management), Bootstrap",
         "demo":"https://www.youtube.com/embed/l3-KOazE7Yg",
-        "left":true
+        "left":true,
+        "github":"https://github.com/srushtiss/dp-hci"
     },
     {
         "title":"Personal Portfolio Website",
@@ -82,6 +85,7 @@ export const projects=[
         "description":"My portfolio website giving you an opportunity to know about me and my skills and you are currently viewing it!",
         "tech_stack":"ReactJS (Stable Components, Hooks, React-Router, State Management), Tailwind CSS and Git (Version Control)",
         "demo":"",
-        "left":false
+        "left":false,
+        "github":"https://github.com/srushtiss/PortfolioWebsite"
     }
 ]

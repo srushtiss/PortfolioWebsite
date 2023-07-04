@@ -5,7 +5,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Body = () => {
 
   return (
-    <div className='flex justify-between bg-slate-100'>
+    <div className='flex justify-between bg-slate-100 dark:bg-black'>
       <div className='m-6 p-6'>
       <div className='pl-32 m-6 flex-col w-[500px] font-heading text-blue-600'>
         <h1 className='text-6xl'>Hello World,</h1>

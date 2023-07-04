@@ -4,13 +4,13 @@ import ProjectCard from '../Cards/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='p-14 flex-col bg-slate-100'>
+    <div className='p-14 flex-col bg-slate-100 dark:bg-black dark:text-white'>
      
       {projects.map((project)=>(
         project.left?
         <div className='flex'>
           <div className='relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 md:ml-0 md:mr-auto md:pl-0 md:pr-16;'>
-            <ProjectCard title={project.title} time_period={project.time_period} desc={project.description} tech_stack={project.tech_stack} demo={project.demo}/>
+            <ProjectCard title={project.title} time_period={project.time_period} desc={project.description} tech_stack={project.tech_stack} demo={project.demo} github={project.github}/>
          </div> 
          <iframe className="p-32 w-[300px] h-auto relative xs:pl-28 md:w-1/2 md:ml-auto md:pl-16" src={project.demo} title="eYIC 2019-20: AIDE  AI &amp; IoT Enabled Home Automation for Disabled &amp; Elderly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
          </div>
@@ -18,7 +18,7 @@ const Projects = () => {
         <div className='m-4 p-4 flex'>
           <iframe className="p-32 w-[300px] h-auto relative xs:pl-28 md:w-1/2 md:ml-auto md:pl-16" src={project.demo} title="eYIC 2019-20: AIDE  AI &amp; IoT Enabled Home Automation for Disabled &amp; Elderly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <div className='relative pt-2 xs:pl-28 xs:pt-0 md:w-1/2 md:ml-auto md:pl-16'>
-            <ProjectCard title={project.title} time_period={project.time_period} desc={project.description} tech_stack={project.tech_stack} demo={project.demo}/>
+            <ProjectCard title={project.title} time_period={project.time_period} desc={project.description} tech_stack={project.tech_stack} demo={project.demo} github={project.github}/>
          </div> 
          </div>
      ))}  

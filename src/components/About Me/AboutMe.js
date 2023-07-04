@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 dark:bg-black dark:text-white'>
     <h3 className='p-14 text-center text-2xl italic'>"Develop a passion for learning. If you do, you will never cease to grow."</h3>
         <div className='m-4 flex align-middle'>
             <div className='p-4 flex flex-wrap justify-between items-center'>

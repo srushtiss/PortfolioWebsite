@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProjectCard = (props) => {
   return (
@@ -7,6 +8,7 @@ const ProjectCard = (props) => {
       <h3 className="p-4 text-xl font-about ">{props.time_period}</h3>
       <h3 className="p-4 text-xl font-about ">{props.desc}</h3>
       <h3 className="p-4 text-xl font-about "><h3 className='font-bold'>Tech Stack : </h3>{props.tech_stack}</h3>
+      <button className='rounded-full bg-sky-500 hover:bg-sky-700 w-40 font-about'><Link to={props.github}>Github</Link></button>
     </div>
   )
 }
