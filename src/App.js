@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App bg-slate-100 ">
       <Header/>
-     
       <Outlet/>
     </div>
   );
