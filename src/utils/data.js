@@ -84,7 +84,7 @@ export const projects=[
         "time_period":"June 2023-July 2023",
         "description":"My portfolio website giving you an opportunity to know about me and my skills and you are currently viewing it!",
         "tech_stack":"ReactJS (Stable Components, Hooks, React-Router, State Management), Tailwind CSS and Git (Version Control)",
-        "demo":"",
+        "demo":"https://www.youtube.com/embed/vIQ948PxNss",
         "left":false,
         "github":"https://github.com/srushtiss/PortfolioWebsite"
     }
